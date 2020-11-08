@@ -1,5 +1,7 @@
 package ar.edu.unq.po2.tp4;
 
+import ar.edu.unq.po2.tp5.Agencia;
+
 public class Producto {
     
 	private String nombre;
@@ -32,5 +34,8 @@ public class Producto {
 	
 	public void aumentarPrecio(Double precio) {
 		this.precio += precio;
+	}
+
+	public void registrarEn(Agencia agencia) {
 	}
 }

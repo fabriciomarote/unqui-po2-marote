@@ -27,7 +27,7 @@ public class Caja {
 	}
 	
 	public void registrar(Producto producto) {
-		this.montoAPagar += producto.getPrecioTotal();
+		this.montoAPagar += producto.getPrecio();
 		stock.descontarStock(producto);
 		producto.registrarEn(agencia);
 	}
