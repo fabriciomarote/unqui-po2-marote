@@ -23,7 +23,7 @@ public class Stock {
     	return this.stockDeProductos.get(producto);
     }
     
-    public void descontarStock(ar.edu.unq.po2.tp4.Producto producto) {
+    public void descontarStock(ar.edu.unq.po2.tp4.ejercicio1y2.Producto producto) {
     	Integer stockActualizado = this.stockDe(producto) -1;
     	this.stockDeProductos.replace(producto, stockActualizado);
     }

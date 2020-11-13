@@ -1,4 +1,4 @@
-package ar.edu.unq.po2.tp6;
+package ar.edu.unq.po2.tp6.bancoYPrestamos;
 
 public class Cliente {
     private String nombre;
@@ -40,7 +40,7 @@ public class Cliente {
     }
     
     public void solicitarCredito(Banco banco, Double monto) {
-        SolicitudDeCredito solicitud = new CreditoPersonal(this, monto);
+        SolicitudDeCredito solicitud = new CreditoPersonal(this, monto, 12);
         banco.registrar(solicitud);
     }
     

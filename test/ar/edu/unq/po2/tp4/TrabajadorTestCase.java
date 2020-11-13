@@ -5,6 +5,10 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import ar.edu.unq.po2.tp4.ejercicio3.IngresoImponible;
+import ar.edu.unq.po2.tp4.ejercicio3.IngresoPorHorasExtras;
+import ar.edu.unq.po2.tp4.ejercicio3.Trabajador;
+
 class TrabajadorTestCase {
 
 	private Trabajador trabajador;

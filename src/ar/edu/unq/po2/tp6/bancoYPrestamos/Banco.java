@@ -1,4 +1,4 @@
-package ar.edu.unq.po2.tp6;
+package ar.edu.unq.po2.tp6.bancoYPrestamos;
 
 import java.util.ArrayList;
 
@@ -34,6 +34,6 @@ public class Banco {
     }
    
     public void otorgarCredito(SolicitudDeCredito credito) {
-		 solicitud.getCliente().cobrarCredito();
+    	credito.getCliente().cobrarCredito();
 	}
 }

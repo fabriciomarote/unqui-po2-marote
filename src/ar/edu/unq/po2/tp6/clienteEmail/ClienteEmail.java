@@ -1,4 +1,4 @@
-package ar.edu.unq.po2.tp6;
+package ar.edu.unq.po2.tp6.clienteEmail;
 
 import java.util.ArrayList;
 
@@ -40,7 +40,7 @@ public class ClienteEmail {
 	 }
 		
 	 public void conectar(){
-	  	 this.servidor.conectar(this.nombreUsuario,this.passUsuario);
+	  	 this.servidor.conectar(this.nombreDeUsuario,this.passUsuario);
 	 }
 		
 	public void borrarCorreo(Correo correo){

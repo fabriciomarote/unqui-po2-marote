@@ -1,4 +1,4 @@
-package ar.edu.unq.po2.tp4;
+package ar.edu.unq.po2.tp4.ejercicio3;
 
 public class IngresoPorHorasExtras extends Ingreso{
 	private Integer cantDeHorasExtras;

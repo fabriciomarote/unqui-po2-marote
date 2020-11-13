@@ -6,6 +6,9 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import ar.edu.unq.po2.tp4.ejercicio1y2.Producto;
+import ar.edu.unq.po2.tp4.ejercicio1y2.Supermercado;
+
 public class SupermercadoTestCase {
     
 	private Producto arroz;

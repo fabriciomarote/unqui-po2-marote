@@ -1,6 +1,6 @@
 package ar.edu.unq.po2.tp5;
 
-import ar.edu.unq.po2.tp4.Producto;
+import ar.edu.unq.po2.tp4.ejercicio1y2.Producto;
 
 public class Caja {
  
